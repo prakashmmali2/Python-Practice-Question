@@ -1,0 +1,8 @@
+# Check whether the string is Symmetrical or Palindrome
+
+stri = input("Enter the String : ")
+
+if(stri == stri[::-1]):
+    print("Palindrome")
+else:
+    print("Not Palindrome")
