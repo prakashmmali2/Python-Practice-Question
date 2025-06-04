@@ -1,0 +1,8 @@
+start,end=input().split()
+start=int(start)
+end=int(end)
+sum=0
+for itr in range(start,end+1):
+    if itr%2==0:
+      sum=sum+itr
+print(sum)
