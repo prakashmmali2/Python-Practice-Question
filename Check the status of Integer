@@ -1,0 +1,10 @@
+# Check the status of Integer
+
+n = int(input("Enter Number : "))
+m = int(input("Enter Number : "))
+flag = True
+
+if n > 0 and m < 0 and not flag:
+    print(True)
+else:
+    print(False)
