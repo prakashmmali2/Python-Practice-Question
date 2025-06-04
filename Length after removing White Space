@@ -1,0 +1,10 @@
+# Avoid Spaces in string length
+
+stri = input("Enter the String : ")
+
+p = stri.strip()
+
+print("length of String afetr Remove White Space : ",len(p))
+    
+    
+    
