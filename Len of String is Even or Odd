@@ -1,0 +1,10 @@
+# Print even length words in a string
+
+stri = input("Enter the String : ")
+
+if(len(stri)%2==0):
+    print("Even length of String")
+else:
+    print("Odd length of String")
+    
+    
