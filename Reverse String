@@ -1,0 +1,5 @@
+#  Reverse words in a given String
+
+stri = input("Enter the String : ")
+
+print("Reverse String is : ",stri[::-1])
