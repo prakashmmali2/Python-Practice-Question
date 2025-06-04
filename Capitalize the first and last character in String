@@ -1,0 +1,8 @@
+# Capitalize the first and last character of each word in a string
+
+stri = input("Enter the String : ")
+
+
+print(stri[0].upper()+(stri[1:len(stri)-1:])+stri[len(stri)-1].upper())
+
+    
