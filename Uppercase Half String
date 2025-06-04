@@ -1,0 +1,7 @@
+# Uppercase Half String
+
+stri = input("Enter the String : ")
+
+mid = int(len(stri)/2)
+print(stri[:mid:].upper()+stri[mid::])
+    
