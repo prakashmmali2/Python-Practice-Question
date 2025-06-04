@@ -1,0 +1,12 @@
+# Remove i’th character from string
+
+stri = input("Enter the String : ")
+
+target = input("Enter the which character Remove from string : ")
+
+stri = stri.replace(target, "")
+
+print(stri)
+    
+    
+    
